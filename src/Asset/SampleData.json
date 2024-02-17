@@ -1,0 +1,23 @@
+[
+  {
+    "title": "inqury",
+    "averageReview": 4.8,
+    "reviewers": 300,
+    "query": "query1",
+    "example": "outcome1"
+  },
+  {
+    "title": "summarize",
+    "averageReview": 4.2,
+    "reviewers": 25,
+    "query": "query2",
+    "example": "outcome2"
+  },
+  {
+    "title": "generate",
+    "averageReview": 3.5,
+    "reviewers": 8,
+    "query": "query3",
+    "example": "outcome3"
+  }
+]
