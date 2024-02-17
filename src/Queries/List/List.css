@@ -1,0 +1,38 @@
+
+#search-box {
+    width: 100%;
+    align-items: center;
+}
+#search-box input {
+    width: 90%;
+    border: whitesmoke 1px solid;
+    border-radius: 5px;
+    height: 1.5rem;
+}
+
+#query-list {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.title {
+    font-size: large;
+    font-weight: bold;
+}
+
+.list-item {
+    display: flex;
+    flex-flow: column;
+    border: silver 2px solid;
+    width: 15vw;
+    border-radius: 5px;
+}
+
+.list-item div {
+    background-color: #009999;
+    color: white;
+    min-height: 5rem;
+    justify-content: center;
+}

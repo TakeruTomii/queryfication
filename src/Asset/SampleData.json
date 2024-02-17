@@ -1,5 +1,6 @@
 [
   {
+    "id": "q-1",
     "title": "inqury",
     "averageReview": 4.8,
     "reviewers": 300,
@@ -7,6 +8,7 @@
     "example": "outcome1"
   },
   {
+    "id": "q-2",
     "title": "summarize",
     "averageReview": 4.2,
     "reviewers": 25,
@@ -14,10 +16,27 @@
     "example": "outcome2"
   },
   {
+    "id": "q-3",
     "title": "generate",
     "averageReview": 3.5,
     "reviewers": 8,
     "query": "query3",
     "example": "outcome3"
+  },
+  {
+    "id": "q-4",
+    "title": "generate improved",
+    "averageReview": 5,
+    "reviewers": 16,
+    "query": "query4",
+    "example": "outcome4"
+  },
+  {
+    "id": "q-5",
+    "title": "make dad joke",
+    "averageReview": 1.1,
+    "reviewers": 1000,
+    "query": "query5",
+    "example": "outcome5"
   }
 ]
