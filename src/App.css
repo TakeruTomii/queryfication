@@ -24,8 +24,6 @@
   color: white;
 }
 
-
-
 .App-link {
   color: #61dafb;
 }
@@ -33,4 +31,8 @@
 p {
   padding-left: 10%;
   text-align: left;
+}
+
+a {
+  padding: 10px;
 }
