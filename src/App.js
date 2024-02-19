@@ -4,6 +4,7 @@ import { List } from "./Queries/List/List";
 import { Home } from "./Home/Home";
 import { NotFound } from "./Shared/NotFound";
 import { Create } from "./Queries/Create/Create";
+import { Detail } from "./Queries/Detail/Detail";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/list" element={<List />} />
           <Route path="/create" element={<Create />} />
+          <Route path="/detail" element={<Detail />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
