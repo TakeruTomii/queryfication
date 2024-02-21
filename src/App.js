@@ -19,7 +19,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/list" element={<List />} />
           <Route path="/create" element={<Create />} />
-          <Route path="/detail" element={<Detail />} />
+          <Route path="/list/detail/:id" element={<Detail />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

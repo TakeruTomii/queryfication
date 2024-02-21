@@ -15,7 +15,7 @@ export const List = function List() {
     };
 
     list.push(
-      <Link to="/detail" state={detailData}>
+      <Link to={"detail/q-" + (i + 1)} state={detailData}>
         <div class="list-item">
           <p class="title">{data["title"]}</p>
           <div>{data["query"]}</div>
