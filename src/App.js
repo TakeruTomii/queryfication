@@ -5,6 +5,7 @@ import { Home } from "./Home/Home";
 import { NotFound } from "./Shared/NotFound";
 import { Create } from "./Queries/Create/Create";
 import { Detail } from "./Queries/Detail/Detail";
+import { Edit } from "./Queries/Edit/Edit";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/list" element={<List />} />
           <Route path="/create" element={<Create />} />
-          <Route path="/list/detail/:id" element={<Detail />} />
+          <Route path="/detail/:id" element={<Detail />} />
+          <Route path="/edit/:id" element={<Edit />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

@@ -10,6 +10,9 @@ export const Detail = function Detail(props) {
   const { state } = useLocation();
   return (
     <div className="Detail">
+      <Link to={"../edit/" + id} state={state}>
+        EDIT
+      </Link>
       <div id="detail-id">id: {id}</div>
       <div id="title">title: {state.title}</div>
       <div id="review">
