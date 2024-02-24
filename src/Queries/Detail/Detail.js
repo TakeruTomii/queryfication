@@ -32,7 +32,7 @@ export const Detail = function Detail(props) {
       <br />
       <br />
       <br />
-      <Link to="/list">Back to Link</Link>
+      <Link to="/list">Back to List</Link>
     </div>
   );
 };
