@@ -1,9 +1,4 @@
-import {
-  Link,
-  useLocation,
-  useParams,
-  useSearchParams,
-} from "react-router-dom";
+import { Link, useLocation, useParams } from "react-router-dom";
 
 export const Detail = function Detail(props) {
   const { id } = useParams();
