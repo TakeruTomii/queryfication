@@ -19,8 +19,8 @@ export const Edit = function Edit() {
       message: "limit is " + 15 + "characters.",
     },
     pattern: {
-      value: /^[A-Za-z0-9]+$/,
-      message: "Alphanumeric characters only.",
+      value: /^[A-Za-z0-9\s_-]+$/,
+      message: "Alphanumeric characters, spaces, hyphen, underscore only.",
     },
   };
   const queryValidation = {
