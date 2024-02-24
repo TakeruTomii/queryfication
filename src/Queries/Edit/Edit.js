@@ -1,5 +1,10 @@
 import { useLocation, useParams, useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
+import {
+  exampleValidation,
+  queryValidation,
+  titleValidation,
+} from "../../Shared/Validations";
 
 export const Edit = function Edit() {
   const { id } = useParams();
@@ -14,31 +19,6 @@ export const Edit = function Edit() {
     mode: "onChange",
   });
 
-  const titleValidation = {
-    required: { value: true, message: "This item is required." },
-    maxLength: {
-      value: 15,
-      message: "limit is " + 15 + "characters.",
-    },
-    pattern: {
-      value: /^[A-Za-z0-9\s_-]+$/,
-      message: "Alphanumeric characters, spaces, hyphen, underscore only.",
-    },
-  };
-  const queryValidation = {
-    required: { value: true, message: "This item is required." },
-    maxLength: {
-      value: 5000,
-      message: "limit is " + 5000 + "characters.",
-    },
-  };
-  const exampleValidation = {
-    required: { value: true, message: "This item is required." },
-    maxLength: {
-      value: 5000,
-      message: "limit is " + 5000 + "characters.",
-    },
-  };
   const update = (data) => {
     alert("Form successfully submitted.");
     const editData = {
