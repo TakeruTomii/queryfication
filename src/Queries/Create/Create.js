@@ -32,7 +32,6 @@ export const Create = function Create() {
   return (
     <div className="Create">
       <form onSubmit={handleSubmit(create)}>
-        <div id="detail-id">id: {id}</div>
         <div>
           <label forhtml="title">title:</label>
           <input id="title" {...register("title", titleValidation)} />
