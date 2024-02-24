@@ -50,7 +50,7 @@ export const Edit = function Edit() {
         </div>
         <div>
           <label forhtml="query">query:</label>
-          <input
+          <textarea
             id="query"
             defaultValue={state.query}
             {...register("query", queryValidation)}
@@ -61,7 +61,7 @@ export const Edit = function Edit() {
         </div>
         <div>
           <label forhtml="example">example:</label>
-          <input
+          <textarea
             id="example"
             defaultValue={state.example}
             {...register("example", exampleValidation)}
