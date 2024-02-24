@@ -1,9 +1,11 @@
-import { useLocation, useParams } from "react-router-dom";
+import { useLocation, useParams, useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
 
 export const Edit = function Edit() {
   const { id } = useParams();
   const { state } = useLocation();
+  const navigate = useNavigate();
+
   const {
     register,
     handleSubmit,
@@ -39,6 +41,14 @@ export const Edit = function Edit() {
   };
   const update = (data) => {
     alert("Form successfully submitted.");
+    const editData = {
+      title: data.title,
+      query: data.query,
+      averageReview: state.averageReview,
+      reviewers: state.reviewers,
+      example: data.example,
+    };
+    navigate("../detail/" + id, { state: editData });
   };
   return (
     <div className="Edit">
