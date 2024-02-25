@@ -1,42 +1,42 @@
 [
   {
     "id": "q-1",
-    "title": "inqury",
+    "title": "inquiry",
     "averageReview": 4.8,
     "reviewers": 300,
-    "query": "query1",
-    "example": "outcome1"
+    "query": "Tell me why I can't save money.",
+    "example": "Because you expense too much for fancy restaurants to hunt girls."
   },
   {
     "id": "q-2",
     "title": "summarize",
     "averageReview": 4.2,
     "reviewers": 25,
-    "query": "query2",
-    "example": "outcome2"
+    "query": "Summerize the long long pleach which the prist told me below.\n\n'Love is all. God will love who offer him what you feel the most precious. We are the agent to collect...'",
+    "example": "The prist want you to pay money for him."
   },
   {
     "id": "q-3",
     "title": "generate",
     "averageReview": 3.5,
     "reviewers": 8,
-    "query": "query3",
-    "example": "outcome3"
+    "query": "Generate a plan for dating to get Alicia for my girl",
+    "example": "1.Bet all of your money to BitCoin and earn a million.\n2.Slap her cheek with the bundle of bucks"
   },
   {
     "id": "q-4",
     "title": "generate improved",
     "averageReview": 5,
     "reviewers": 16,
-    "query": "query4",
-    "example": "outcome4"
+    "query": "Generate a better plan for dating to get Becky for my girl",
+    "example": "1.Go to a cinema. \n2.Go to a Japanese restaurant.\n3.Drive her by your BMW."
   },
   {
     "id": "q-5",
     "title": "make dad joke",
     "averageReview": 1.1,
     "reviewers": 1000,
-    "query": "query5",
-    "example": "outcome5"
+    "query": "Make a dad joke.",
+    "example": "See you later aligator. For a while crocodile."
   }
 ]

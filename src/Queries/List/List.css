@@ -5,7 +5,7 @@
 }
 #search-box input {
     width: 90%;
-    border: whitesmoke 1px solid;
+    border: silver 2px solid;
     border-radius: 5px;
     height: 1.5rem;
 }
@@ -14,7 +14,7 @@
     width: 100%;
     display: flex;
     flex-flow: row;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
 .title {
