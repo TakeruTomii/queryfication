@@ -1,7 +1,5 @@
 # Queryfication
 
-(under development)
-
 This project is a CMS application to share a excellent collection of queries for prompt engineering like Chat GPT
 
 ## Environment
